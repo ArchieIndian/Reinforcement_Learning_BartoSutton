@@ -1,0 +1,35 @@
+Exercise 2.1
+============
+
+P(greedy)=P(pick greedy∣exploit)P(exploit)+P(pick greedy∣exploration)P(exploration)
+
+
+Exercise 2.2
+=============
+
+Cleal, whenever it doesn't go for the current best average reward except sometimes it might go to the best one even by chance
+
+Exercise 2.3
+=============
+0.01 should work the best. 
+
+Exercise 2.4
+=============
+Vary the alpha over time too to get the right expression
+
+Exercise 2.5
+============
+
+``` ten_armed_test_bed.py```
+
+Exercise 2.6
+=============
+Initial regret and then on average the better actions creating good rewards will cause a spike
+
+Exercise 2.7
+============
+Not Done
+
+Exercise 2.8
+============
+Nt(a) = 0 then a is considered the maximising action. Discriminatory factor will be the value of Qt. And we know that this only depends on the first round of exploration.
